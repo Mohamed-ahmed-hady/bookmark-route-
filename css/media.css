@@ -1,0 +1,49 @@
+
+
+
+
+/* start container */
+@media screen and (max-width: 450px) {
+
+  .container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+
+  }
+
+}
+@media screen and (max-width: 990px) {
+
+  .container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+  }
+
+}
+/* end container */
+
+/* start hover */
+@media screen and (max-width: 450px) {
+
+  .main h1:hover::before {
+    height: 100%;
+    transition: height 0.5s;
+  }
+
+  }
+@media screen and (max-width: 750px) {
+
+  .main h1:hover::before {
+    height: 100%;
+    transition: height 0.5s;
+  }
+
+  }
+
+
+
+
+/* end hover */
